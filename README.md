@@ -1,7 +1,5 @@
 # Can Agent Toolkit for AWS Make Coding Agents Better Engineers?
 
-A small field experiment by **Awan Shrestha** (AWS Community Builder).
-
 I gave the same spec to the same coding agent twice: once on its own, and once with the [Agent Toolkit for AWS](https://aws.amazon.com/products/developer-tools/agent-toolkit-for-aws/) installed. Same agent, same model, same prompt, same AWS account and region. The only thing that changed was the toolkit.
 
 The app in both runs is a serverless AI chat backend:
