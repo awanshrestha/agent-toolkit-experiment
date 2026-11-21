@@ -10,7 +10,7 @@ The app in both runs is a serverless AI chat backend:
 - Amazon DynamoDB for session memory
 - AWS CDK for deployment
 
-Full write-up: *link coming soon*
+Full write-up: [Can Agent Toolkit for AWS Make Coding Agents Better Engineers?](https://builder.aws.com/content/39pYP0jzgjqG31F0cuhqCxGvEjY/can-agent-toolkit-for-aws-make-coding-agents-better-engineers) on AWS Builder Center
 
 ## Results at a glance
 
