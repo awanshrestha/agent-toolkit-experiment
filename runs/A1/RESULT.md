@@ -9,11 +9,11 @@ IAM Wildcards Found: NONE
 
 | Resource Type | Name |
 |---|---|
-| API Gateway WebSocket API | AgentToolkitWebSocket (<api-id>) |
+| API Gateway WebSocket API | AgentToolkitWebSocket (YOUR_API_ID) |
 | API Gateway Stage | prod |
 | API Gateway Routes | $connect, $disconnect, sendMessage |
 | API Gateway Integrations | ConnectIntegration, DisconnectIntegration, MessageIntegration |
-| API Gateway Deployment | <deployment-id> |
+| API Gateway Deployment | REDACTED |
 | Lambda Function | AgentToolkit-Connect |
 | Lambda Function | AgentToolkit-Disconnect |
 | Lambda Function | AgentToolkit-Message |
@@ -31,9 +31,9 @@ IAM Wildcards Found: NONE
 
 ## Deployment Outputs
 
-- **WebSocket URL**: wss://<api-id>.execute-api.us-east-1.amazonaws.com/prod
-- **API ID**: <api-id>
-- **Stack ARN**: arn:aws:cloudformation:us-east-1:<ACCOUNT_ID>:stack/AgentToolkitStack/<stack-id>
+- **WebSocket URL**: wss://YOUR_API_ID.execute-api.us-east-1.amazonaws.com/prod
+- **API ID**: YOUR_API_ID
+- **Stack ARN**: arn:aws:cloudformation:us-east-1:REDACTED_ACCOUNT_ID:stack/AgentToolkitStack/REDACTED_STACK_ID
 - **Region**: us-east-1
 
 ## Issues Encountered and Fixed

@@ -33,16 +33,16 @@
 | Allow | `bedrock:InvokeModelWithResponseStream` | `arn:aws:bedrock:us-east-1::foundation-model/anthropic.claude-sonnet-4-5-20250929-v1:0` |
 | Allow | `bedrock:InvokeModelWithResponseStream` | `arn:aws:bedrock:us-east-2::foundation-model/anthropic.claude-sonnet-4-5-20250929-v1:0` |
 | Allow | `bedrock:InvokeModelWithResponseStream` | `arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-sonnet-4-5-20250929-v1:0` |
-| Allow | `bedrock:InvokeModelWithResponseStream` | `arn:aws:bedrock:us-east-1:<ACCOUNT_ID>:inference-profile/us.anthropic.claude-sonnet-4-5-20250929-v1:0` |
-| Allow | `execute-api:ManageConnections` | `arn:aws:execute-api:us-east-1:<ACCOUNT_ID>:<api-id>/prod/POST/@connections/*` |
+| Allow | `bedrock:InvokeModelWithResponseStream` | `arn:aws:bedrock:us-east-1:REDACTED_ACCOUNT_ID:inference-profile/us.anthropic.claude-sonnet-4-5-20250929-v1:0` |
+| Allow | `execute-api:ManageConnections` | `arn:aws:execute-api:us-east-1:REDACTED_ACCOUNT_ID:YOUR_API_ID/prod/POST/@connections/*` |
 
 ### 4. Resource-Based Policies (Lambda Permissions)
 
 | Lambda Function | Principal | Source ARN |
 |---|---|---|
-| AgentToolkit-Connect | `apigateway.amazonaws.com` | `arn:aws:execute-api:us-east-1:<ACCOUNT_ID>:<api-id>/*/$connect` |
-| AgentToolkit-Disconnect | `apigateway.amazonaws.com` | `arn:aws:execute-api:us-east-1:<ACCOUNT_ID>:<api-id>/*/$disconnect` |
-| AgentToolkit-Message | `apigateway.amazonaws.com` | `arn:aws:execute-api:us-east-1:<ACCOUNT_ID>:<api-id>/*/sendMessage` |
+| AgentToolkit-Connect | `apigateway.amazonaws.com` | `arn:aws:execute-api:us-east-1:REDACTED_ACCOUNT_ID:YOUR_API_ID/*/$connect` |
+| AgentToolkit-Disconnect | `apigateway.amazonaws.com` | `arn:aws:execute-api:us-east-1:REDACTED_ACCOUNT_ID:YOUR_API_ID/*/$disconnect` |
+| AgentToolkit-Message | `apigateway.amazonaws.com` | `arn:aws:execute-api:us-east-1:REDACTED_ACCOUNT_ID:YOUR_API_ID/*/sendMessage` |
 
 ## Wildcard Scan Results
 

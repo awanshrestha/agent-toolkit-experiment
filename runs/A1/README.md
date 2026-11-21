@@ -58,8 +58,8 @@ The deployment outputs the WebSocket URL.
 ```bash
 cd frontend
 npm install
-REACT_APP_WS_URL=wss://<api-id>.execute-api.us-east-1.amazonaws.com/prod npm start
-wss://<api-id>.execute-api.us-east-1.amazonaws.com/prod
+REACT_APP_WS_URL=wss://YOUR_API_ID.execute-api.us-east-1.amazonaws.com/prod npm start
+wss://YOUR_API_ID.execute-api.us-east-1.amazonaws.com/prod
 ```
 
 Open the browser, enter the WebSocket URL, and start chatting.
@@ -68,7 +68,7 @@ Open the browser, enter the WebSocket URL, and start chatting.
 
 Connect with a session ID:
 ```
-wss://<api-id>.execute-api.us-east-1.amazonaws.com/prod?sessionId=my-session
+wss://YOUR_API_ID.execute-api.us-east-1.amazonaws.com/prod?sessionId=my-session
 ```
 
 Send a message:

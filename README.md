@@ -65,7 +65,7 @@ cd runs/B1/lambda && npm install
 cd ../infra && npm install
 npx cdk deploy
 # test with the WebSocket URL from the stack outputs
-WS_URL=wss://<api-id>.execute-api.us-east-1.amazonaws.com/prod ../test_websocket.sh
+WS_URL=wss://YOUR_API_ID.execute-api.us-east-1.amazonaws.com/prod ../test_websocket.sh
 
 # clean up
 npx cdk destroy

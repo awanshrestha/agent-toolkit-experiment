@@ -50,7 +50,7 @@
 - **Name**: `AgentToolkitWebSocket`
 - **Route selection**: `$request.body.action`
 - **Stage**: `prod`
-- **Endpoint**: `wss://<api-id>.execute-api.us-east-1.amazonaws.com/prod`
+- **Endpoint**: `wss://YOUR_API_ID.execute-api.us-east-1.amazonaws.com/prod`
 
 ### Routes
 

@@ -1,6 +1,6 @@
 import WebSocket from 'ws';
 
-// Usage: WS_URL=wss://<api-id>.execute-api.us-east-1.amazonaws.com/prod node test_ws.mjs
+// Usage: WS_URL=wss://YOUR_API_ID.execute-api.us-east-1.amazonaws.com/prod node test_ws.mjs
 const WS_URL = process.env.WS_URL;
 if (!WS_URL) {
   console.error('Set WS_URL to your WebSocket endpoint (see the CDK stack outputs).');

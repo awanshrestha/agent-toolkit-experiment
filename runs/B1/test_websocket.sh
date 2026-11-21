@@ -1,5 +1,5 @@
 #!/bin/bash
-# Usage: WS_URL=wss://<api-id>.execute-api.us-east-1.amazonaws.com/prod ./test_websocket.sh
+# Usage: WS_URL=wss://YOUR_API_ID.execute-api.us-east-1.amazonaws.com/prod ./test_websocket.sh
 WS_URL="${WS_URL:?Set WS_URL to your WebSocket endpoint (see the CDK stack outputs)}"
 SESSION_ID="test-session-$(date +%s)"
 

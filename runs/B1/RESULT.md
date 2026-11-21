@@ -13,7 +13,7 @@
 
 | Resource Type | Logical ID | Physical ID |
 |---|---|---|
-| API Gateway WebSocket API | ChatWebSocketApi | <api-id> |
+| API Gateway WebSocket API | ChatWebSocketApi | YOUR_API_ID |
 | API Gateway Stage | ProdStage | prod |
 | API Gateway Route | $connect | dn28sv2 |
 | API Gateway Route | $disconnect | xzmrlnl |
@@ -32,10 +32,10 @@
 
 ## Deployment Outputs
 
-- **WebSocket URL:** `wss://<api-id>.execute-api.us-east-1.amazonaws.com/prod`
+- **WebSocket URL:** `wss://YOUR_API_ID.execute-api.us-east-1.amazonaws.com/prod`
 - **Connections Table:** `AiChatStack-ConnectionsTable8000B8A1-12XCZULSIRU7W`
 - **Conversations Table:** `AiChatStack-ConversationsTableCD91EB96-4FC9D506A1RS`
-- **Stack ARN:** `arn:aws:cloudformation:us-east-1:<ACCOUNT_ID>:stack/AiChatStack/<stack-id>`
+- **Stack ARN:** `arn:aws:cloudformation:us-east-1:REDACTED_ACCOUNT_ID:stack/AiChatStack/REDACTED_STACK_ID`
 
 ## Test Results
 

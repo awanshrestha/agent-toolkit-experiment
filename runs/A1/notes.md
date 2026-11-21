@@ -50,7 +50,7 @@
 - **Actions on Bedrock**: `bedrock:InvokeModelWithResponseStream`
   - Resources: Foundation model in us-east-1, us-east-2, us-west-2 + inference profile ARN
 - **Actions on API Gateway**: `execute-api:ManageConnections`
-  - Resource: `arn:aws:execute-api:us-east-1:<ACCOUNT_ID>:<api-id>/prod/POST/@connections/*`
+  - Resource: `arn:aws:execute-api:us-east-1:REDACTED_ACCOUNT_ID:YOUR_API_ID/prod/POST/@connections/*`
 
 ### Lambda Invoke Permissions (resource-based)
 - API Gateway is granted `lambda:InvokeFunction` on each Lambda, scoped to specific route ARNs
@@ -66,7 +66,7 @@ No `Action: "*"` or `Resource: "*"` patterns found in any IAM policy. The `@conn
 - **Status**: SUCCESS
 - **Stack**: `AgentToolkitStack`
 - **Region**: us-east-1
-- **Account**: <ACCOUNT_ID>
+- **Account**: REDACTED_ACCOUNT_ID
 - **Deployment time**: ~120s total (synth + deploy)
 
 ## 8. Resources Created
