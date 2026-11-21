@@ -1,0 +1,3 @@
+run,condition,deployed,streaming,memory,iam_wildcard_actions,time_minutes,interventions,tokens_approx,lambda_runtime
+A1,agent-only,yes,yes,yes,0,21,hard (1),45k,nodejs20.x
+B1,agent+toolkit,yes,yes,yes,0,20,soft only,30k,nodejs22.x
